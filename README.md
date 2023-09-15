@@ -2,6 +2,7 @@
 This project uses Twitter automation tool to tweet song verses from a chosen artist at a given time interval. 
 
 Note: This is an ongoing project as I am in the process of learning Databases. So, expect this project to change.
+
 check the account here:
 ```bash
  https://twitter.com/hozier_song
