@@ -36,7 +36,7 @@ def song_bot():
             client.create_tweet(text=verse)
             tweeted_verse.add(verse)  # will store to tweeted_verse now
 
-            time.sleep(5*60*60)
+            time.sleep(12*60*60)
 
 
 song_bot()
