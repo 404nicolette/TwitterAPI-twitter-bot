@@ -1,7 +1,6 @@
 # Twitter Bot
 This project uses Twitter automation tool to tweet song verses from a chosen artist at a given time interval. 
-
-Note: This is an ongoing project as I am in the process of learning Databases. So, expect this project to change.
+I have also implemented BeautifulSoup to scrape data from a lyrics website in order to grab the lyrics to hozier's songs and store it in a txt file. The txt file be the source of the tweet content.
 
 check the account here:
 ```bash
@@ -24,6 +23,11 @@ check the account here:
   ```bash
   pip install tweepy
   ```
+  
+- Install BeautifulSoup
+  ```bash
+  pip install beautifulsoup4
+  ```
 
 ## Prerequisites
 - Twitter Developer Account
@@ -37,4 +41,9 @@ check the account here:
   
 - Twitter API Rate Limits:
    Be aware of Twitter API Limits. This may vary depending on the kind of Developer account you      have. For this project, I am using a free version so the API limit has 50 requests in 24 hours and 1,500 tweets per month.
+
+- BeautifulSoup Knowledge
+  In order to get the lyrics from a website the user must have a knowledge on how web scraping works.
+
+
 
